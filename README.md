@@ -1,7 +1,8 @@
-#
-# Для работы в Termux необходимо:
-# обновить пакеты
-# установить python3
-# 
-# Если же вы используете Kali, то просто запустите скрипт и он всё сделает сам)
-#
+Termux
+apt update
+pkg install python
+python3 DosManager.py
+
+Kali:
+apt-get update
+python3 DosManager.py
