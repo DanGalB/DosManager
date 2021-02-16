@@ -43,7 +43,7 @@ else:
     print("Перезапустите скрипт и попробуйте ещё раз.")
     exit(0)
 
-url = input("Введи url сайта (обязательно со / на конце! :>")
+url = input("Введи url сайта (обязательно вставь '/' на конце! :>")
 
 subprocess.call('ab -n 100000  -c 1000 -k -r -H "User-Agent: GoogleBot" ' + url, shell=True)
 
