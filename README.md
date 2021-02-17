@@ -14,7 +14,7 @@ python3 DosManager.py
 
 git clone https://github.com/DanGalB/DosManager/
 
-pkg install python3 
+apt install python3 
 
 python3 DosManager.py
 
